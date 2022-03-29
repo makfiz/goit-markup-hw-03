@@ -1,0 +1,527 @@
+/* global */
+a {
+  text-decoration: none;
+}
+.links-hover:hover,
+.links-hover:focus {
+  color: #2196f3;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  position: relative;
+  width: 1600px;
+  height: 100%;
+  color: #212121;
+  background: #e5e5e5;
+}
+ul,
+li {
+  /* list-style reset */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+}
+header hr {
+  position: absolute;
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+
+  border: 1px solid #ececec;
+}
+header a:visited {
+  color: #000000;
+}
+/* Menu Nav */
+.logo-nav {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-nav > span {
+  color: #2196f3;
+}
+
+nav {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+nav ul {
+  display: inline-flex;
+}
+nav li {
+  padding-right: 50px;
+}
+
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* main */
+main {
+  width: 1600px;
+  height: 2017px;
+  left: 0px;
+  top: 82px;
+  background-color: #ffffff;
+  margin-bottom: 94px;
+}
+.business-solutions {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 82px;
+  background: #2f303a;
+}
+h1 {
+  /* Эффективные решения для вашего бизнеса */
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 350px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+.our-advantages {
+  position: absolute;
+  width: 1600px;
+  height: 101px;
+  top: 774px;
+}
+.our-advantages h3 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.Feature > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.f1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+}
+.f2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+}
+.f3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+}
+.f4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.what-are-we-doing {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.what-are-we-doing ul {
+  display: inline-flex;
+}
+.what-are-we-doing li {
+  padding-right: 30px;
+}
+.our-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
+
+.our-team li {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card-1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+}
+.team-card-2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+}
+.team-card-3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+}
+.team-card-4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+}
+.our-team h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  height: 252px;
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  position: relative;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.part-1st-logo {
+  color: #2196f3;
+}
+.part-2nd-logo {
+  color: #ffffff;
+}
+address {
+  position: absolute;
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+}
+address ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.addres-footer,
+address > a:visited {
+  color: #ffffff;
+}
+.info-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio*/
+.conteiner-portfolio {
+  position: relative;
+  width: 1600px;
+  height: 1548px;
+  top: 82px;
+  background: #ffffff;
+  padding-top: 94px;
+}
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 94px;
+  background: #ffffff;
+}
+
+.filters {
+  position: absolute;
+  width: 611px;
+  height: 54px;
+  left: 280px;
+  display: inline-flex;
+}
+
+.filter1 {
+  width: 73px;
+}
+.filter2 {
+  width: 128px;
+}
+.filter3 {
+  width: 145px;
+}
+.filter4 {
+  width: 103px;
+}
+.filter5 {
+  width: 130px;
+}
+
+.filters > li {
+  padding: 2px 8px 0px 0px;
+}
+.filters button {
+  height: 38px;
+  border-radius: 4px;
+  border-color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.active {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #2196f3;
+  color: #ffffff;
+}
+.inactive {
+  background: #f5f4fa;
+  color: #212121;
+}
+
+.projects {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.project1 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 88px;
+  left: 0px;
+}
+
+.project2 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 88px;
+  left: 400px;
+}
+
+.project3 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 88px;
+  left: 800px;
+}
+
+.project4 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 522px;
+  left: 0px;
+}
+
+.project5 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 522px;
+  left: 400px;
+}
+
+.project6 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 522px;
+  left: 800px;
+}
+
+.project7 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 956px;
+  left: 0px;
+}
+
+.project8 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 956px;
+  left: 400px;
+}
+
+.project9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  top: 956px;
+  left: 800px;
+}
+
+.projects div {
+  position: absolute;
+  width: 322px;
+  height: 70px;
+  left: 24px;
+  top: 314px;
+}
+
+.project-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 0;
+}
+
+.project-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0;
+}
