@@ -41,7 +41,9 @@ header hr {
 
   border: 1px solid #ececec;
 }
-header a:visited {
+header a:visited,
+header a,
+header a:active {
   color: #000000;
 }
 /* Menu Nav */
