@@ -39,6 +39,13 @@ body {
   margin: 0;
 }
 
+.nav-links {
+  color: #212121;
+}
+.curent-link {
+  color: var(--accent-text-color);
+}
+
 .conteiner {
   margin-left: auto;
   margin-right: auto;
@@ -56,14 +63,6 @@ header {
   background-color: var(--white-text-color);
 }
 
-nav a:visited,
-nav a,
-nav a:active,
-.logo-nav,
-.logo-nav:visited,
-.logo-nav:active {
-  color: #212121;
-}
 header li {
   margin-right: 50px;
 }
@@ -293,8 +292,7 @@ address li {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.addres-footer,
-address > a:visited {
+.addres-footer {
   color: var(--white-text-color);
 }
 .contacts-footer {
