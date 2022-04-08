@@ -30,7 +30,7 @@ body {
   width: 1600px;
   height: 100%;
   color: #212121;
-  background: var(--bg-text-color);
+  background-color: var(--bg-text-color);
 }
 .list {
   /* list-style reset */
@@ -59,8 +59,8 @@ header .conteiner {
   align-items: center;
 }
 header {
-  height: 80px;
   background-color: var(--white-text-color);
+  border: 1px solid #ececec;
 }
 
 header li {
@@ -90,7 +90,6 @@ header li:last-child {
 nav {
   width: 294px;
   height: 16px;
-  margin-right: 331px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -101,6 +100,9 @@ header ul {
   display: inline-flex;
 }
 
+nav + .list {
+  margin-left: auto;
+}
 .contacts-header {
   font-style: normal;
   font-weight: 500;
@@ -115,9 +117,8 @@ main {
   background-color: var(--white-text-color);
 }
 .business-solutions {
-  height: 600px;
   background: var(--secondary-bg-text-color);
-  margin-bottom: 93px;
+
   display: flex;
 }
 .business-solutions .conteiner {
@@ -126,7 +127,7 @@ main {
 .business-solutions h1 {
   /* Эффективные решения для вашего бизнеса */
   width: 696px;
-  margin: 200px auto 30px auto;
+  margin: 106px auto 30px auto;
   padding: 0;
   font-style: normal;
   font-weight: 900;
@@ -141,7 +142,7 @@ main {
   display: flex;
   width: 200px;
   height: 50px;
-  margin: auto;
+  margin: 0px auto 106px auto;
   background: var(--accent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -203,9 +204,8 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section2,
-.what-are-we-doing {
-  margin-bottom: 94px;
+.section {
+  padding: 94px 0px 94px 0px;
 }
 .what-are-we-doing ul {
   display: inline-flex;
@@ -214,15 +214,14 @@ h2 {
   padding-left: 30px;
 }
 .our-team {
+  margin-bottom: 0px;
   background-color: #f5f4fa;
 }
 .our-team h2 {
   margin: 0px 0px 50px 0px;
-  padding: 94px 0px 0px 0px;
 }
 .our-team ul {
   display: inline-flex;
-  margin-bottom: 94px;
 }
 .our-team li {
   background-color: var(--white-text-color);
@@ -284,8 +283,8 @@ address {
   width: 231px;
   padding-bottom: 60px;
 }
-address li {
-  margin-bottom: 9px;
+address li + li {
+  margin-top: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -358,11 +357,11 @@ address li {
 .projects-card {
   width: 370px;
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
 }
 
 .projects-card div {
-  margin: 20px 24px 20px 24px;
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .project-title {
