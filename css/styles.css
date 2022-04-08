@@ -282,6 +282,7 @@ footer {
 address {
   width: 231px;
   padding-bottom: 60px;
+  font-style: normal;
 }
 address li + li {
   margin-top: 9px;
