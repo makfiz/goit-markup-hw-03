@@ -49,8 +49,8 @@ body {
 .conteiner {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
-  outline: 2px solid tomato;
+  width: 1200px;
+  padding: 15px;
 }
 
 /* header */
@@ -60,7 +60,7 @@ header .conteiner {
 }
 header {
   background-color: var(--white-text-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 header li {
@@ -71,7 +71,8 @@ header li:last-child {
 }
 /* Menu Nav */
 .logo-nav {
-  margin: 24px 93px 25px 0px;
+  margin-right: 93px;
+  padding: 25px 0px 25px 0px;
 
   width: 145px;
   height: 31px;
@@ -82,6 +83,9 @@ header li:last-child {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  display: flex;
+  align-items: center;
 }
 .logo-nav > span {
   color: var(--accent-text-color);
@@ -181,7 +185,7 @@ main {
   text-transform: uppercase;
 }
 .Feature > p {
-  margin-top: 10px;
+  margin: 10px 0px 0px 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -206,6 +210,10 @@ h2 {
 }
 .section {
   padding: 94px 0px 94px 0px;
+}
+
+.section.what-are-we-doing {
+  padding: 0px 0px 94px 0px;
 }
 .what-are-we-doing ul {
   display: inline-flex;
@@ -233,8 +241,12 @@ h2 {
   margin-left: 30px;
 }
 
+.tile__prev {
+  padding: 30px 0px 30px 0px;
+}
+
 .our-team h3 {
-  margin: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px;
   font-style: normal;
   font-weight: 500;
@@ -245,7 +257,7 @@ h2 {
   color: #212121;
 }
 .our-team p {
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px 0px 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -256,6 +268,7 @@ h2 {
 }
 /* footer */
 footer {
+  padding: 60px 0px 60px 0px;
   width: 100%;
   background-color: var(--secondary-bg-text-color);
 }
@@ -264,7 +277,7 @@ footer {
   display: inline-flex;
   width: 145px;
   height: 31px;
-  margin: 60px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -281,7 +294,6 @@ footer {
 }
 address {
   width: 231px;
-  padding-bottom: 60px;
   font-style: normal;
 }
 address li + li {
