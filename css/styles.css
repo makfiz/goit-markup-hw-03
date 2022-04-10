@@ -372,6 +372,10 @@ address li + li {
   box-sizing: border-box;
 }
 
+.projects-card img {
+  display: block;
+}
+
 .projects-card div {
   padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
