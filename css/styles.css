@@ -27,7 +27,6 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   position: relative;
-  width: 1600px;
   height: 100%;
   color: #212121;
   background-color: var(--bg-text-color);
@@ -50,7 +49,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
 }
 
 /* header */
@@ -296,13 +295,17 @@ address {
   width: 231px;
   font-style: normal;
 }
-address li + li {
-  margin-top: 9px;
+
+address li {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+address li + li {
+  margin-top: 9px;
 }
 .addres-footer {
   color: var(--white-text-color);
@@ -314,7 +317,6 @@ address li + li {
 /* ____________________________________________Portfolio_________________________________________________________*/
 .portfolio {
   padding: 94px 0px 64px 0px;
-  width: 1600px;
   background: var(--white-text-color);
 }
 
