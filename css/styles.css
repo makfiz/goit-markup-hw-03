@@ -121,6 +121,10 @@ main {
 
   display: flex;
 }
+
+.img-overlay {
+}
+
 .business-solutions .conteiner {
   flex-direction: column;
 }
